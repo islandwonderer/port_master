@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-33.9 620.771 102.323 200.614" width="201" height="99.141" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0, -1, 1, 0, -805.996521, 736.461487)">
+    <rect x="-82.059" y="811.26" width="94.721" height="29.192" style="fill: rgb(235, 193, 7);"/>
+    <path style="stroke-width: 7px; fill: rgb(51, 49, 41); stroke: rgb(175, 156, 72); stroke-miterlimit: 31;" d="M -71.853 867.214 L 10.2 786.117"/>
+    <rect x="-81.338" y="777.729" width="93" height="93" style="fill: none; stroke: rgb(235, 193, 7); stroke-width: 7px;"/>
+    <path style="fill: none; stroke: rgb(235, 193, 7); stroke-width: 5px;" d="M -50.006 837.168 L 8.066 866.8 L -7.423 837.823"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(235, 193, 7); stroke-width: 7px;" d="M -79.246 868.774 L 9.292 781.162"/>
+    <rect x="-83.338" y="774.729" width="39.527" height="62.948" style="fill: rgb(126, 126, 126); fill-opacity: 0.55;"/>
+    <rect x="-85.338" y="771.588" width="39.527" height="62.948" style="fill: rgb(246, 246, 246);"/>
+    <path d="M 76.67 814.557 L 115.662 814.557 L 115.662 837.43 L 76.67 837.43 L 76.67 832.994 L -43.326 832.994 L -43.326 818.994 L 76.67 818.994 Z" style="fill: rgb(235, 193, 7);"/>
+    <rect x="-43.719" y="830.009" width="120.872" height="3.463" style="fill: rgb(175, 156, 72);" transform="matrix(1, 0, 0.248762, 1, -207.714966, 0.17335)"/>
+  </g>
+</svg>
