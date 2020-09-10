@@ -20,12 +20,34 @@ public class Grid : MonoBehaviour
     {
         
     }
+    void DecreaseRow(int row)
+    {
+        for(int i = 0; i<width; i++)
+        {
+            if(grid[i,row])
+            {
+                // Move piece one row up
+                grid[i, row - 1] = grid[i, row];
+                // Mark cell as empty
+                grid[i, row] = null;
+                // Move the piece object
+                grid[i, row - 1].gameObject.transform.position += Vector3.down;
+            }
+        }
+    }
 
+    void DecreaseRowsAbove(int row)
+    {
+        for(int i = 0; i<height; i++){
+            DecreaseRow(i);
+        }
+    }
     void DeleteFullRows()
     {
         for(int i=0; i<height; i++){
             if(IsRowFull(i)){
                 DeleteRow(i);
+                DecreaseRowsAbove(i);
             }
         }
     }
@@ -47,5 +69,16 @@ public class Grid : MonoBehaviour
         }
              
         return true;
+    }
+
+    bool IsWithinBoard(Vector2 boardPosition)
+    {
+        if(boardPosition.x >= 0 && boardPosition.x < width)
+        {
+            if(boardPosition.y >= 0 && boardPosition.y < height){
+                return true;
+            }
+        }
+        return false;
     }
 }
